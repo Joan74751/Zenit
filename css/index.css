@@ -242,7 +242,7 @@ a.buy:hover {
 }
 
 .titulo-seccion {
-    color: var(--color-azul);
+    color: var(--color-gris);
     font-size: 44px;
     margin-bottom: 1.5rem;
 }
@@ -254,7 +254,7 @@ a.buy:hover {
 }
 
 .footer {
-    background: linear-gradient(90deg,rgba(68, 156, 254, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(90deg, rgba(68, 156, 254, 1) 0%, rgba(0, 0, 0, 1) 100%);
     padding: 3rem 0 0 0;
 }
 
@@ -354,6 +354,11 @@ a.buy:hover {
     .tarjeta-azul {
         top: 2.5rem;
         margin: 1rem 1rem 0 1rem;
+    }
+
+    .logo-mision {
+        margin-top: 4rem;
+        z-index: 3
     }
 
     .img-novedad--top {
